@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Recycling Projects</title>
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-br from-amber-50 via-lime-50 to-emerald-50 min-h-screen text-gray-800">
+
+  <%- include('partials/navbar', { page: '/about' }) %>
+
+  <div class="container mx-auto mt-10 px-4">
+
+    <div class="hero bg-gradient-to-r from-emerald-100 via-green-50 to-amber-100 rounded-lg shadow-md p-8 mb-12 border border-emerald-100">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold mb-2 text-emerald-700">About</h1>
+          <p class="text-lg text-emerald-600">Biography</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-10 items-center bg-white/80 p-10 rounded-2xl shadow-lg border border-amber-100 backdrop-blur-sm">
+      <div>
+        <img src="/images/about.jpeg"
+             class="rounded-xl shadow-md w-full object-cover border border-emerald-100"
+             alt="Ariana Hajizadeh">
+      </div>
+      <div>
+        <h2 class="text-3xl font-semibold mb-4 text-emerald-700">
+          Hello, This is Ariana Hajizadeh!
+        </h2>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          I am a <strong>Computer Programming and Analysis</strong> student at <strong>Seneca Polytechnic</strong>.
+          I’m passionate about <strong>Data Science</strong> and <strong>Cybersecurity</strong> — areas that combine
+          creativity, logic, and real-world impact.
+        </p>
+        <p class="text-lg text-gray-700 leading-relaxed mt-4">
+          For four years, I was part of a <strong>robotics team in Iran</strong>, where I learned teamwork,
+          innovation, and how small efforts can make big changes — just like recycling!
+          I love continuous learning, exploring technology, and creating meaningful projects that help others.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

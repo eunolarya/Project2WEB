@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "sector_id": 1,
+    "title": "Plastic Bottle Recycling",
+    "category": "PLASTIC",
+    "feature_img_url": "https://images.unsplash.com/photo-1604328698692-8a1b8b2b5d56",
+    "summary_short": "Collecting and reprocessing plastic bottles into new products, reducing landfill waste and pollution.",
+    "intro_short": "Plastic bottles are one of the most common pollutants. Recycling them helps reduce waste, save energy, and protect the environment.",
+    "impact": "Recycling one ton of plastic bottles saves over 3.8 barrels of oil and reduces carbon emissions by 1.5 tons, helping fight climate change.",
+    "original_source_url": "https://www.nrdc.org/stories/plastic-recycling"
+  },
+  {
+    "id": 2,
+    "sector_id": 2,
+    "title": "Ocean Plastic Cleanup",
+    "category": "PLASTIC",
+    "feature_img_url": "https://images.unsplash.com/photo-1616627434272-bb74b90f8e61",
+    "summary_short": "Using floating booms and solar-powered systems to remove plastic from oceans and recycle it into usable materials.",
+    "intro_short": "Massive floating systems collect ocean plastic before it breaks down and harms marine ecosystems.",
+    "impact": "These efforts remove thousands of tons of waste yearly, protecting marine life and restoring natural ocean balance.",
+    "original_source_url": "https://theoceancleanup.com/"
+  },
+  {
+    "id": 3,
+    "sector_id": 3,
+    "title": "Recycled Plastics Manufacturing",
+    "category": "PLASTIC",
+    "feature_img_url": "https://images.unsplash.com/photo-1503596476-1c1f9b7b97df",
+    "summary_short": "Producing durable goods like benches, decking, and packaging from recycled plastic materials.",
+    "intro_short": "Factories transform collected plastic waste into new products like furniture and packaging.",
+    "impact": "This reduces the demand for virgin plastics, lowering carbon emissions and saving raw resources.",
+    "original_source_url": "https://plasticsrecycling.org/"
+  },
+  {
+    "id": 4,
+    "sector_id": 4,
+    "title": "Community Composting Hub",
+    "category": "ORGANIC WASTE",
+    "feature_img_url": "https://images.unsplash.com/photo-1567176942380-5e88db56aa32",
+    "summary_short": "Turning food scraps and yard waste into compost to support community gardens and reduce methane emissions.",
+    "intro_short": "Local composting hubs help neighborhoods recycle organic waste into nutrient-rich compost.",
+    "impact": "Community composting cuts landfill methane emissions and creates healthy soil for green spaces.",
+    "original_source_url": "https://www.epa.gov/recycle/composting-home"
+  },
+  {
+    "id": 5,
+    "sector_id": 5,
+    "title": "Campus Compost Program",
+    "category": "ORGANIC WASTE",
+    "feature_img_url": "https://images.unsplash.com/photo-1603570419150-3d4c8399b604",
+    "summary_short": "Students collect and compost cafeteria waste, turning it into soil for school gardens and green spaces.",
+    "intro_short": "Schools and universities engage students in composting projects for sustainability education.",
+    "impact": "Diverting cafeteria waste reduces methane production and enriches campus gardens.",
+    "original_source_url": "https://www.un.org/en/actnow/food"
+  },
+  {
+    "id": 6,
+    "sector_id": 6,
+    "title": "Restaurant Food Waste Recovery",
+    "category": "ORGANIC WASTE",
+    "feature_img_url": "https://images.unsplash.com/photo-1586281380349-632531db7a43",
+    "summary_short": "Partnering with local restaurants to turn leftover food into compost or donations for community programs.",
+    "intro_short": "Restaurants collaborate to donate unsold meals or compost their organic waste responsibly.",
+    "impact": "This approach reduces food waste and helps feed vulnerable populations.",
+    "original_source_url": "https://refed.org/"
+  },
+  {
+    "id": 7,
+    "sector_id": 7,
+    "title": "E-Waste Collection Drive",
+    "category": "ELECTRONIC WASTE",
+    "feature_img_url": "https://images.unsplash.com/photo-1605025186783-6f92b2d9d4a2",
+    "summary_short": "Collecting and recycling electronic devices like phones, laptops, and appliances to recover valuable metals.",
+    "intro_short": "Collection events encourage people to recycle old electronics safely and responsibly.",
+    "impact": "Recovering metals from e-waste prevents pollution and reduces the need for new mining.",
+    "original_source_url": "https://www.epa.gov/international-cooperation/clean-electronics"
+  },
+  {
+    "id": 8,
+    "sector_id": 8,
+    "title": "Laptop Refurbishment Program",
+    "category": "ELECTRONIC WASTE",
+    "feature_img_url": "https://images.unsplash.com/photo-1556761175-129418cb2dfe",
+    "summary_short": "Repairing and upgrading old computers for reuse in schools and nonprofit organizations.",
+    "intro_short": "Old laptops are repaired, upgraded, and distributed to schools and nonprofits.",
+    "impact": "Extending electronics’ life reduces e-waste and increases digital access.",
+    "original_source_url": "https://www.worldloop.org/"
+  },
+  {
+    "id": 9,
+    "sector_id": 9,
+    "title": "Battery Recycling Stations",
+    "category": "ELECTRONIC WASTE",
+    "feature_img_url": "https://images.unsplash.com/photo-1581090123609-1e7a4f1b6b8b",
+    "summary_short": "Setting up drop-off stations for used batteries to prevent chemical leakage and recover rare materials.",
+    "intro_short": "Battery drop-off bins allow communities to safely dispose of toxic waste.",
+    "impact": "Battery recycling prevents environmental contamination and supports metal recovery.",
+    "original_source_url": "https://www.call2recycle.ca/"
+  }
+]

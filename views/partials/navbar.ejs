@@ -1,0 +1,29 @@
+<div class="navbar bg-gradient-to-r from-emerald-50 via-amber-50 to-lime-50 shadow-md mb-6 px-6 rounded-b-xl border-b border-emerald-100">
+  <div class="flex-1">
+    <a href="/" class="btn btn-ghost normal-case text-xl font-bold text-emerald-700 hover:text-emerald-600">
+      Recycling Projects
+    </a>
+  </div>
+
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1 text-emerald-700 font-medium">
+      <li>
+        <a
+          href="/solutions/projects"
+          class="rounded-lg px-4 py-2 transition-all duration-200 hover:bg-emerald-100 hover:text-emerald-800 <%= (page == '/solutions/projects') ? 'bg-emerald-200 text-emerald-800 font-semibold' : '' %>"
+        >
+          View Projects
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="/about"
+          class="rounded-lg px-4 py-2 transition-all duration-200 hover:bg-amber-100 hover:text-emerald-800 <%= (page == '/about') ? 'bg-amber-200 text-emerald-800 font-semibold' : '' %>"
+        >
+          About
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

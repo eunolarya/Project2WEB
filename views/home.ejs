@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recycling Projects</title>
+  <link href="/css/main.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gradient-to-br from-amber-50 via-lime-50 to-emerald-50 min-h-screen text-gray-800">
+
+  <%- include('partials/navbar', { page: '/' }) %>
+
+  <div class="hero bg-gradient-to-r from-emerald-100 via-green-50 to-amber-100 text-emerald-800 py-16 mb-12 shadow-md rounded-lg mx-4">
+    <div class="hero-content text-center">
+      <div class="max-w-xl">
+        <h1 class="text-5xl font-bold mb-4">Recycling Projects</h1>
+        <p class="text-lg mb-6 text-emerald-700">
+          Discover creative and sustainable ideas that give waste a new life.
+        </p>
+        <a href="/solutions/projects" class="btn btn-primary btn-lg bg-emerald-400 hover:bg-emerald-500 border-none text-white rounded-full shadow-md">
+          Explore Projects
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-6 mb-20">
+    <h2 class="text-3xl font-bold mb-8 text-center text-emerald-800">Featured Recycling Initiatives</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="card bg-white/80 backdrop-blur-sm shadow-lg border border-amber-100 rounded-xl transition transform hover:-translate-y-1 hover:shadow-xl">
+        <figure>
+          <img src="https://as2.ftcdn.net/v2/jpg/05/98/67/15/1000_F_598671500_DAJbuMb5mYDcRHGomLBtxdQ4HchIeJeh.jpg"
+               alt="Plastic Recycling"
+               class="object-cover h-56 w-full rounded-t-xl border-b border-emerald-100">
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title text-emerald-700">Plastic Recycling</h2>
+          <p class="text-gray-700">Turning discarded plastic into reusable materials and products.</p>
+          <div class="card-actions justify-end mt-3">
+            <a href="/solutions/projects/1" class="btn bg-emerald-400 hover:bg-emerald-500 border-none text-white rounded-full">
+              Details
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-white/80 backdrop-blur-sm shadow-lg border border-amber-100 rounded-xl transition transform hover:-translate-y-1 hover:shadow-xl">
+        <figure>
+          <img src="https://img.freepik.com/premium-photo/wormbased-organic-waste-composting_1003686-7546.jpg"
+               alt="Organic Waste Composting"
+               class="object-cover h-56 w-full rounded-t-xl border-b border-emerald-100">
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title text-emerald-700">Organic Waste Composting</h2>
+          <p class="text-gray-700">Transforming food and plant waste into rich compost for gardening.</p>
+          <div class="card-actions justify-end mt-3">
+            <a href="/solutions/projects/2" class="btn bg-emerald-400 hover:bg-emerald-500 border-none text-white rounded-full">
+              Details
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-white/80 backdrop-blur-sm shadow-lg border border-amber-100 rounded-xl transition transform hover:-translate-y-1 hover:shadow-xl">
+        <figure>
+          <img src="https://tidyup.com.au/wp-content/uploads/2020/09/electronic-waste.jpg"
+               alt="E-Waste Recycling"
+               class="object-cover h-56 w-full rounded-t-xl border-b border-emerald-100">
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title text-emerald-700">E-Waste Recycling</h2>
+          <p class="text-gray-700">Recovering valuable materials from old electronics responsibly.</p>
+          <div class="card-actions justify-end mt-3">
+            <a href="/solutions/projects/3" class="btn bg-emerald-400 hover:bg-emerald-500 border-none text-white rounded-full">
+              Details
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

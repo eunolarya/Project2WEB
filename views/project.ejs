@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= project.title %> - Recycling Projects</title>
+  <link href="/css/main.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gradient-to-br from-amber-50 via-lime-50 to-emerald-50 min-h-screen text-gray-800">
+
+  <%- include('partials/navbar', { page: '' }) %>
+
+  <div class="hero bg-gradient-to-r from-emerald-100 via-green-50 to-amber-100 rounded-xl shadow-md my-10 mx-6 border border-emerald-100">
+    <div class="hero-content text-center">
+      <div class="max-w-2xl">
+        <h1 class="text-5xl font-bold mb-3 text-emerald-700"><%= project.title %></h1>
+        <p class="text-lg text-emerald-700">
+          Learn more about how this recycling project helps build a sustainable future.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 mb-20">
+    <div class="card bg-white/80 backdrop-blur-sm shadow-lg rounded-2xl border border-amber-100">
+      <figure>
+        <img src="<%= project.feature_img_url %>" 
+             alt="<%= project.title %>" 
+             class="w-full h-80 object-cover rounded-t-2xl border-b border-emerald-100">
+      </figure>
+
+      <div class="card-body space-y-6 p-8">
+        <h2 class="card-title text-2xl font-semibold text-emerald-700">Introduction</h2>
+        <p class="text-gray-700 leading-relaxed"><%= project.intro_short %></p>
+
+        <h2 class="card-title text-2xl font-semibold mt-8 text-emerald-700">Impact</h2>
+        <p class="text-gray-700 leading-relaxed"><%= project.impact %></p>
+
+        <div class="divider"></div>
+
+        <a href="<%= project.original_source_url %>" target="_blank" 
+           class="btn bg-emerald-400 hover:bg-emerald-500 border-none text-white rounded-full w-fit shadow-md">
+          Learn More
+        </a>
+
+        <div id="quoteBox" class="mt-10 text-center border-t pt-6 border-amber-100">
+          <p id="quoteText" class="italic text-lg text-gray-600">Loading quote...</p>
+          <p id="quoteAuthor" class="font-semibold text-gray-500 mt-2"></p>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="#" onclick="history.back(); return false;" 
+             class="btn bg-amber-300 hover:bg-amber-400 border-none text-emerald-900 rounded-full shadow-md">
+            ← Go Back
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch("https://dummyjson.com/quotes/random")
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("quoteText").textContent = `"${data.quote}"`;
+          document.getElementById("quoteAuthor").textContent = `– ${data.author}`;
+        })
+        .catch(() => {
+          document.getElementById("quoteText").textContent = "Could not load quote.";
+        });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+[
+  { "id": 1, "sector_name": "Plastic" },
+  { "id": 2, "sector_name": "Plastic" },
+  { "id": 3, "sector_name": "Plastic" },
+  { "id": 4, "sector_name": "Organic Waste" },
+  { "id": 5, "sector_name": "Organic Waste" },
+  { "id": 6, "sector_name": "Organic Waste" },
+  { "id": 7, "sector_name": "Electronic Waste" },
+  { "id": 8, "sector_name": "Electronic Waste" },
+  { "id": 9, "sector_name": "Electronic Waste" }
+]
