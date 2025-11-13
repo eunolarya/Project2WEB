@@ -65,15 +65,6 @@ app.use((req, res) => {
   });
 });
 
-module.exports = app;
-
-if (!process.env.VERCEL) {
-  const HTTP_PORT = process.env.PORT || 8080;
-  Initialize().then(() => {
-    app.listen(HTTP_PORT, () => console.log("Server listening on " + HTTP_PORT));
-  });
-}
-/***
 if (process.env.VERCEL) {
   module.exports = async (req, res) => {
     try {
@@ -90,4 +81,3 @@ if (process.env.VERCEL) {
   });
   
 }
-***/
